@@ -1,0 +1,31 @@
+.input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-bottom: 20px;
+}
+
+.timer {
+  display: flex;
+}
+.field:not(:last-child) {
+  margin-right: 5px;
+}
+
+.field {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid green;
+}
+
+.value {
+  font-size: 40px;
+  color: palevioletred;
+  text-align: center;
+}
+.label {
+  text-align: center;
+}
